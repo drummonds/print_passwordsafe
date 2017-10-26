@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="pwsafe.xsl"?>
+
+<passwordsafe
+delimiter="»"
+Database="C:\Users\HumphreyDrummond\MajorProjects\print_passwordsafe\test\test.psafe3"
+ExportTimeStamp="2017-10-26T11:31:51"
+FromDatabaseFormat="3.13"
+WhoSaved="HumphreyDrummond on EMPEROR"
+WhatSaved="Password Safe V3.43"
+WhenLastSaved="2017-10-26T11:30:35"
+Database_uuid="971bcaff-3d86-4f23-89d2-c0ad99f8d81e"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="pwsafe.xsd">
+
+ <!-- Note: These preferences are only used when importing into an empty database. --> 
+	<Preferences>
+		<UseDefaultUser>1</UseDefaultUser>
+		<PWUseSymbols>0</PWUseSymbols>
+		<PWUseEasyVision>1</PWUseEasyVision>
+		<ShowNotesDefault>1</ShowNotesDefault>
+		<PWDefaultLength>20</PWDefaultLength>
+		<IdleTimeout>480</IdleTimeout>
+		<PWDigitMinLength>1</PWDigitMinLength>
+		<PWLowercaseMinLength>1</PWLowercaseMinLength>
+		<PWUppercaseMinLength>1</PWUppercaseMinLength>
+		<DefaultUsername><![CDATA[none]]></DefaultUsername>
+	</Preferences>
+
+	<entry id="1">
+		<title><![CDATA[Base Entry]]></title>
+		<username><![CDATA[Usename 1]]></username>
+		<password><![CDATA[1234]]></password>
+		<notes><![CDATA[Has some notes]]></notes>
+		<uuid><![CDATA[e22634de08d44b3895d38d9716290265]]></uuid>
+		<ctimex>2017-10-25T12:54:15</ctimex>
+		<email><![CDATA[dummy@draft.com]]></email>
+	</entry>
+
+	<entry id="2">
+		<group><![CDATA[Grouped passwords]]></group>
+		<title><![CDATA[another Entry]]></title>
+		<username><![CDATA[Usename 2]]></username>
+		<password><![CDATA[1234]]></password>
+		<notes><![CDATA[Has some notes]]></notes>
+		<uuid><![CDATA[5db29bbbaa6249a38ed2c0c79298be11]]></uuid>
+		<ctimex>2017-10-25T12:54:46</ctimex>
+		<pmtimex>2017-10-25T12:54:15</pmtimex>
+		<rmtimex>2017-10-25T12:55:16</rmtimex>
+		<email><![CDATA[dummy@draft.com]]></email>
+	</entry>
+
+	<entry id="3">
+		<group><![CDATA[Nested Group.Second nested group.Third nested group]]></group>
+		<title><![CDATA[Nested user]]></title>
+		<username><![CDATA[Nestered user]]></username>
+		<password><![CDATA[a]]></password>
+		<uuid><![CDATA[cc1b38e38d2747aa87bba91d64c61e94]]></uuid>
+		<ctimex>2017-10-26T11:30:35</ctimex>
+	</entry>
+
+	<entry id="4">
+		<group><![CDATA[Second Group]]></group>
+		<title><![CDATA[Second group]]></title>
+		<username><![CDATA[a user]]></username>
+		<password><![CDATA[1]]></password>
+		<url><![CDATA[This is a URL]]></url>
+		<notes><![CDATA[This is a note»on two lines]]></notes>
+		<uuid><![CDATA[ecf11381d6fb47b1be305d287074738f]]></uuid>
+		<ctimex>2017-10-26T11:29:02</ctimex>
+		<email><![CDATA[This is an Email]]></email>
+	</entry>
+
+	<entry id="5">
+		<group><![CDATA[Second Group]]></group>
+		<title><![CDATA[Second group 2 simple]]></title>
+		<username><![CDATA[B]]></username>
+		<password><![CDATA[b]]></password>
+		<uuid><![CDATA[e692344cee4a449699f11b9ae30aadb2]]></uuid>
+		<ctimex>2017-10-26T11:29:25</ctimex>
+	</entry>
+
+	<entry id="6">
+		<title><![CDATA[simple]]></title>
+		<username><![CDATA[No User]]></username>
+		<password><![CDATA[1]]></password>
+		<uuid><![CDATA[9ee7276daae44c9db7f375fd025b7b53]]></uuid>
+		<ctimex>2017-10-26T11:27:37</ctimex>
+		<rmtimex>2017-10-26T11:27:55</rmtimex>
+	</entry>
+
+</passwordsafe>
