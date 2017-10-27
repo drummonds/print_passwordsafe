@@ -102,3 +102,6 @@ ENV/
 
 # Pycharm
 .idea
+
+# Playpen for temporary local files
+playplen/*
